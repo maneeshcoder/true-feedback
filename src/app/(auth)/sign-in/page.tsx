@@ -24,8 +24,8 @@ const page = () => {
   const form = useForm({
     resolver: zodResolver(signInSchema),
     defaultValues: {
-      identifier: '',
-      password: ''
+      identifier: 'maneeshrawat143@gmail.com',
+      password: 'revolution'
     }
   })
 

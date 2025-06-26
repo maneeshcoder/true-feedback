@@ -26,7 +26,6 @@ const page = () => {
   const debounced = useDebounceCallback(setUsername, 300)
   const router = useRouter()
 
-  //zod 
   const form = useForm({
     resolver: zodResolver(signUpSchema),
     defaultValues: {
@@ -83,6 +82,7 @@ const page = () => {
       const axiosError = error as AxiosError<ApiResponse>;
       const errorMessage = axiosError.response?.data.message || "Error verifying code";
       toast.error(errorMessage);
+      setisSubmitting(false);
     }
   }
   return (
