@@ -65,10 +65,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-sm">&copy; {new Date().getFullYear()} Maneesh Rawat. All rights reserved.</p>
           <div className="flex justify-center mt-4 space-x-6">
-            <a href="https://github.com/maneeshrawat" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a href="https://github.com/maneeshcoder" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaGithub size={20} />
             </a>
-            <a href="https://linkedin.com/in/maneeshrawat" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
+            <a href="https://www.linkedin.com/in/maneesh-rawat-461a76251" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
               <FaLinkedin size={20} />
             </a>
             <a href="https://instagram.com/mr_maneesh07" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
